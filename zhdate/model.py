@@ -7,4 +7,4 @@ class ZhModel:
         self.shengxiao = shengxiao
 
     def __str__(self):
-        return f"{self.zh_year}{self.zh_month}{self.zh_day} {self.year_tiandi} ({self.shengxiao}年)"
+        return f"{self.zh_year}{self.zh_month}{self.zh_day} {self.year_tiandi} ({self.shengxiao})"

@@ -146,7 +146,7 @@ class ZhDate:
         else:
             zh_day = "三十"
 
-        year_tiandi = ZhDate.__tiandi(self.lunar_year - 1900 + 36)
+        year_tiandi = "{}年".format(ZhDate.__tiandi(self.lunar_year - 1900 + 36))
 
         shengxiao = "鼠牛虎兔龙蛇马羊猴鸡狗猪"
 
