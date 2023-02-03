@@ -133,6 +133,7 @@ class ZhDate:
             zh_month += ZHNUMS[self.lunar_month]
         else:
             zh_month += "十{}".format(ZHNUMS[self.lunar_month - 10])
+        zh_month += "月"
 
         if self.lunar_day <= 10:
             zh_day = "初{}".format(ZHNUMS[self.lunar_day])
